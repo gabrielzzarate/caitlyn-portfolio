@@ -3,24 +3,27 @@
 
 <head>
   <title>Caitlyn Marie</title>
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" type="text/css">
 </head>
 
 <body>
 
-<header>
+<header id="header">
   <div class="container">
-    <div class="logo">
-      <h1>Caitlyn Marie</h1>
+    <div class="header-inner">
+      <div class="logo">
+        <h1>Caitlyn Marie</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#measurements">Measurements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#measurements">Measurements</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
   </div>
 </header>
 
@@ -89,7 +92,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="about">
     <div class="container">
       <h2>About Me</h2>
       <p class="p-large">Hi I am Caitlyn Zarate! For the last 5 years I have been a behavioral therapist for kids with
@@ -106,21 +109,23 @@
     <div class="container">
       <h2>Contact Me</h2>
       <form>
-        <div class="form-wrapper">
-          <input type="text" />
-          <label>First Name</label>
-        </div>
-        <div class="form-wrapper">
-          <input type="text" />
-          <label>Last Name</label>
-        </div>
-        <div class="form-wrapper">
-          <input type="email" />
-          <label>Email Address</label>
-        </div>
-        <div class="form-wrapper">
-          <textarea></textarea>
-          <label>Message</label>
+        <div class="form">
+          <div class="field-wrapper">
+            <input type="text" />
+            <label>First Name</label>
+          </div>
+          <div class="field-wrapper">
+            <input type="text" />
+            <label>Last Name</label>
+          </div>
+          <div class="field-wrapper">
+            <input type="email" />
+            <label>Email Address</label>
+          </div>
+          <div class="field-wrapper">
+            <textarea></textarea>
+            <label>Message</label>
+          </div>
         </div>
 
 
@@ -134,5 +139,7 @@
 </footer>
 
 </body>
+
+<script src="scripts.js"></script>
 
 </html>
